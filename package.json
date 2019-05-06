@@ -8,6 +8,7 @@
   "dependencies": {
     "@types/ioredis": "^4.0.10",
     "@types/koa": "^2.0.48",
+    "@zeit/next-css": "^1.0.1",
     "ioredis": "^4.9.0",
     "koa": "^2.7.0",
     "koa-router": "^7.4.0",
