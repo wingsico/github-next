@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        // "style": "css"
+        // 若加上该行则当 import 具体组件时，会同时引入具体组件的css样式
+        // 但是该属性与目前的 webpack mini-extract-css-plugin 结合使用时有bug，会出现冲突，目前没有很好的解决方案
+      }
+    ]
+  ]
+}
